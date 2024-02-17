@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@rollup/rollup-linux-x64-gnu": "4.6.1",
     "add-to-calendar-button": "^2.5.10",
     "add-to-calendar-button-react": "^2.5.9",
     "axios": "^1.6.5",
