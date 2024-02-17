@@ -1,0 +1,107 @@
+.social-explore:hover > ul {
+  display: flex;
+}
+.social-explore > ul {
+  display: none;
+}
+.social-explore:hover > button {
+  display: none;
+}
+.progress_dot {
+  height: 13px;
+  width: 13px;
+  background: #bbb;
+  border-radius: 50px 50px 50px 50px;
+  display: inline-block;
+  margin: 2%;
+}
+.progress_dot_done {
+  height: 13px;
+  width: 13px;
+  background: rgb(255, 126, 132);
+  border-radius: 50px 50px 50px 50px;
+  display: inline-block;
+  margin: 2%;
+}
+
+/* CAPTCHA */
+.fieldSpace {
+  width: 25%;
+}
+@media (max-width: 800px) {
+  .fieldSpace {
+    width: 80%;
+  }
+}
+.rnc {
+  display: flex;
+  gap: 5px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.rnc-row {
+  display: flex;
+  align-items: stretch;
+}
+
+.rnc-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 0 0 10px;
+}
+
+.rnc-canvas {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.rnc-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background: #fff;
+  color: inherit;
+  border: none;
+  padding: 0;
+  width: 25px;
+  height: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.rnc-button svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.rnc-input {
+  border: none !important;
+  padding: 10px 6px;
+  font-weight: bold;
+  font-size: 1em !important;
+  outline: none !important;
+  border-radius: 5px !important;
+  --tw-ring-color: none !important;
+}
+.rnc-input::placeholder {
+  font-weight: normal;
+}
+@media (min-width: 1024px) {
+  .column-title {
+    line-height: 25.6px !important;
+  }
+}
+.profile-form th,td {
+  text-align: left;
+}
+label {
+  user-select: none;
+  font-size: 14px;
+}
